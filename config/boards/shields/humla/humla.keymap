@@ -6,12 +6,11 @@
 
     base {
       display-name = "Base";
-      // Put unlock anywhere convenient:
       bindings = <
-        &kp Q  &kp W  &kp E  &kp R  &kp T  &studio_unlock  &kp Y  &kp U  &kp I  &kp O
-        &kp A  &kp S  &kp D  &kp F  &kp G  &kp H           &kp J  &kp K  &kp L  &kp SQT
-        &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N           &kp M  &kp COM &kp DOT &kp FSLH
-                      &kp LALT &kp SPACE &kp TAB &kp BSPC  &kp ESC &kp ENTER
+      &kp Q  &kp W  &kp E  &kp R  &kp T  &studio_unlock  &kp Y  &kp U    &kp I   &kp O
+      &kp A  &kp S  &kp D  &kp F  &kp G  &kp H           &kp J  &kp K    &kp L   &kp SQT
+      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N           &kp M  &kp COMMA &kp DOT &kp FSLH
+                  &kp LALT &kp SPACE &kp TAB &kp BSPC   &kp ESC &kp ENTER
       >;
     };
 
