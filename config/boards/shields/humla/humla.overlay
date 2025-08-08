@@ -1,15 +1,11 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
+// top of file:
+#include "humla-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &humla_layout;
     };
 
     default_transform: keymap_transform_0 {
@@ -25,7 +21,7 @@
         >;
     };
 
-    kscan0: kscan_0 {        
+    kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "col2row";
